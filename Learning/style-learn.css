@@ -28,9 +28,7 @@
     height: 100px;
     margin: 0 0 10px;
     align-content: center;
-    
-    
-
+    text-align: center;
 }
 
 /* This (<!-- and -->) is used for commenting */
@@ -40,6 +38,7 @@
     gap: 5px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .flex-container2 a {
@@ -53,13 +52,37 @@
     background-color: rgba(20, 206, 213, 0.743);
     gap: 5px;
 }
-
-.one {
-    background-color: black;
-    padding: 5px;
     /* image from absolute path*/
-}
-.one img {
+
+.responsive1 {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    padding: 5px;}
+
+.responsive2 {
+    height: auto;
+    width: 100%;}
+
+.responsive3 {
+    height: auto;
+    width: 100%;}
+
+.responsive4 {
+    height: auto;
+    width: 100%;}
+
+.responsive5 {
+    height: auto;
+    width: 100%;}
+
+.responsive6 {
+    height: auto;
+    width: 100%;}
+
+
+
+/*.one img {
     height: 100%;
     width: 100%;
 }
@@ -68,5 +91,5 @@
 .flex-container3 img {
     height: 100%;
     width: 100%;
+} */    
 /* image from relative path*/
-}
